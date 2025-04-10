@@ -12,7 +12,8 @@ BrainMix is designed to:
 - Use a modular, thread-based architecture per channel (CH1 & CH2)
 
 ## 📁 Folder Structure
-  ``` BrainMix_RPCode_Template/ 
+  ```
+  BrainMix_RPCode_Template/ 
   ├── CMSIS/ # CMSIS-NN and DSP libraries (ARM-optimized) 
   │ ├── NN/ │ │ ├── Source/ # CNN layers (fully connected, convolution, activation) 
   │ │ └── Include/ # NN headers 
