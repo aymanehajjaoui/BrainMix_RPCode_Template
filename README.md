@@ -12,8 +12,6 @@ BrainMix is designed to:
 - Use a modular, thread-based architecture per channel (CH1 & CH2)
 
 ## 📁 Folder Structure
-
-<pre lang="markdown"> ## 📁 Folder Structure 
   ``` BrainMix_RPCode_Template/ 
   ├── CMSIS/ # CMSIS-NN and DSP libraries (ARM-optimized) 
   │ ├── NN/ │ │ ├── Source/ # CNN layers (fully connected, convolution, activation) 
@@ -39,4 +37,4 @@ BrainMix is designed to:
   │ └── main.cpp 
   │ ├── Makefile # Cross-compilation rules 
   ├── plot.py # Python plot script (e.g., for .csv results) 
-  ├── README.md ``` </pre>
+  ├── README.md ``` 
