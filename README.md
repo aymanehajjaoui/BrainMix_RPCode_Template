@@ -9,7 +9,7 @@ BrainMix is designed to:
 - Acquire interferometric signals in real-time from RedPitaya ADCs
 - Process the signals using a CNN model (velocity prediction, etc.)
 - Output results via DAC or CSV
-- Use a modular, thread-based or process-based (On your choice) architecture per channel (CH1 & CH2)
+- Use a modular, thread-based architecture per channel (CH1 & CH2)
 
 ## 📁 Folder Structure
   ```
