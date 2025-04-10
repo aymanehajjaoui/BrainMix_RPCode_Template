@@ -20,22 +20,22 @@ BrainMix is designed to:
   │ ├── DSP/Include/ # DSP math types
   │ └── Core/Include/ # CMSIS core headers 
   │ ├── include/ # Project header files 
-  │ ├── Common.hpp │ 
-  ├── DAC.hpp │ 
-  ├── DataAcquisition.hpp │ 
-  ├── DataWriter.hpp │ 
-  ├── ModelProcessing.hpp │ 
-  ├── ModelWriter.hpp 
-  │ └── SystemUtils.hpp 
+  │ │ ├── Common.hpp │ 
+  │ │ ├── DAC.hpp │ 
+  │ │ ├── DataAcquisition.hpp │ 
+  │ │ ├── DataWriter.hpp │ 
+  │ │ ├── ModelProcessing.hpp │ 
+  │ │ ├── ModelWriter.hpp 
+  │ │ └── SystemUtils.hpp 
   │ ├── src/ # Source code (.cpp) 
-  │ ├── Common.cpp 
-  │ ├── DAC.cpp 
-  │ ├── DataAcquisition.cpp 
-  │ ├── DataWriter.cpp 
-  │ ├── ModelProcessing.cpp 
-  │ ├── ModelWriter.cpp 
-  │ ├── SystemUtils.cpp 
-  │ └── main.cpp 
+  │ │ ├── Common.cpp 
+  │ │ ├── DAC.cpp 
+  │ │ ├── DataAcquisition.cpp 
+  │ │ ├── DataWriter.cpp 
+  │ │ ├── ModelProcessing.cpp 
+  │ │ ├── ModelWriter.cpp 
+  │ │ ├── SystemUtils.cpp 
+  │ │ └── main.cpp 
   │ ├── Makefile # Cross-compilation rules 
   ├── plot.py # Python plot script (e.g., for .csv results) 
   └── README.md
