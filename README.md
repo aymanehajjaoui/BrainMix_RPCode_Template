@@ -37,4 +37,5 @@ BrainMix is designed to:
   │ └── main.cpp 
   │ ├── Makefile # Cross-compilation rules 
   ├── plot.py # Python plot script (e.g., for .csv results) 
-  ├── README.md ``` 
+  ├── README.md
+``` 
